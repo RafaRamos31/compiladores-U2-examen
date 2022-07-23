@@ -1,6 +1,17 @@
 @import url(./global-style.css);
 
-/*Imagen baner*/
+/*Baner*/
 .baner{
-    background-image: url('../images/principal.jpg');
+    background-image: url('../images/galeria.png');
+    padding-top: 19rem;
 }
+
+.baner h2{
+    text-align: center;
+    color: var(--font-panel-color);
+    font-size: 10rem;
+    margin: 0;
+}
+
+/*Contenido de la pagina*/
+

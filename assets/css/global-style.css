@@ -137,8 +137,10 @@ img{
 }
 
 .copyright {
+    border-top: 1px solid var(--separator-color);
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 4rem;
+    padding-top: 1rem;
     margin-bottom: 5rem;
     color: var(--font-text-color);
 }
