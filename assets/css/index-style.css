@@ -1,5 +1,10 @@
 @import url(./global-style.css);
 
+/*Imagen baner*/
+.baner{
+    background-image: url('../images/principal.jpg');
+}
+
 /* Categorias */
 
 .categorias{

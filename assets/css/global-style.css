@@ -7,8 +7,7 @@
     --button-hover-color: #5FBB5D;
     --separator-color: #C1C1C1;
     /*Texto*/
-    --font-title-primary-color: black;
-    --font-title-secundary-color: #2988E0;
+    --font-title-color: black;
     --font-text-color: #828282;
     --font-panel-color: white;
     --font-button-color: black;
@@ -91,7 +90,7 @@ img{
 }
 
 .nombre-sitio span{
-    color: var(--font-title-secundary-color);
+    color: var(--panel-color);
 }
 
 .contenedor-navegacion{
@@ -99,7 +98,6 @@ img{
 }
 
 .baner{
-    background-image: url('../images/principal.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
