@@ -1,0 +1,146 @@
+/*Paleta de colores global*/
+:root{
+    /*Objetos*/
+    --bg-color: white;
+    --panel-color: #2988E0;
+    --button-color: #9BFB99;
+    --button-hover-color: #5FBB5D;
+    --separator-color: #C1C1C1;
+    /*Texto*/
+    --font-title-primary-color: black;
+    --font-title-secundary-color: #2988E0;
+    --font-text-color: #828282;
+    --font-panel-color: white;
+    --font-button-color: black;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1REM = 10px */
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+/* Globales */
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-title-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 5rem 0;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.btn {
+    color: var(--font-button-color);
+    background-color: var(--button-color);
+    display: block;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    transition: background-color .3s ease-out;
+}
+
+.btn:hover {
+    background-color: var(--button-hover-color);
+}
+
+/* Utilitarios */
+.text-center {
+    text-align: center;
+}
+
+/* Header y Navegacion */
+
+.nombre-sitio {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.nombre-sitio span{
+    color: var(--font-title-secundary-color);
+}
+
+.contenedor-navegacion{
+    border-top: .1rem solid var(--separator-color);
+}
+
+.baner{
+    background-image: url('../images/principal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 55rem;
+}
+
+.nav-principal{
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Footer */
+
+.site-footer{
+    border-top: 1px solid var(--separator-color);
+    margin-top: 3rem;
+    padding-top: 3rem;
+}
+
+.site-footer h3 {
+    margin-bottom: .5rem;
+}
+
+.grid-footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.footer-menu a{
+    display: block;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    color: var(--font-text-color);
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: var(--font-text-color);
+}
