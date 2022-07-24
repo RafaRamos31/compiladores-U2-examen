@@ -15,3 +15,96 @@
 
 /*Contenido de la pagina*/
 
+/* Inicios */
+
+.inicios{
+    background-image: linear-gradient(to right, transparent 50%, var(--panel-color) 50% , var(--panel-color) 100%), url(../images/inicios.png);
+    padding: 10rem 0;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 100%, 120rem;
+    margin-top: 5rem;
+}
+
+.inicios-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15rem;
+}
+
+.inicios .texto-panel{
+    grid-column: 2 / 3;
+}
+
+/* Secciones */
+
+.secciones{
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.secciones h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.seccion a {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+    color: var(--font-text-color);
+    border-bottom-right-radius: 1rem;
+}
+
+.seccion a:hover{
+    background-color: var(--panel-color);
+    color: var(--font-panel-color);
+}
+
+.listado-secciones{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+}
+
+/* Trabaja con nosotros */
+.trabaja-nosotros{
+    background-color: var(--panel-color);
+}
+
+.trabaja-nosotros img{
+    width: 100%;
+}
+
+.trabaja-nosotros p{
+    padding: 3rem;
+}
+
+.btn-area{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+
+.btn-area a{
+    grid-column: 4 / 5;
+    margin: 3rem;
+}
+
+/* Informacion Adicional */
+
+.info-adicional{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+.info{
+    background-color: var(--panel-color);
+    margin: 5rem;
+}
+
+.info img{
+    width: 100%;
+}
