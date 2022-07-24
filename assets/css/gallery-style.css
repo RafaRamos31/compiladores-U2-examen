@@ -1,0 +1,59 @@
+@import url(./global-style.css);
+
+/*Baner*/
+.baner{
+    background-image: url('../images/galeria.png');
+    padding-top: 19rem;
+    margin-bottom: 3rem;
+}
+
+.baner h2{
+    text-align: center;
+    color: var(--font-panel-color);
+    font-size: 10rem;
+    margin: 0;
+}
+
+/*Contenido de la pagina*/
+
+/*Lista de catalogos*/
+.listado-catalogos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    text-align: center;
+}
+
+.catalogo{
+    background-color: var(--panel-color);
+}
+
+.catalogo a{
+    margin: 2rem;
+}
+
+.catalogo h3{
+    margin-bottom: 1rem;
+}
+
+/*Secciones adicionales*/
+
+.section-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--panel-color);
+    text-align: center;
+}
+
+.gallery-section{
+    padding: 10rem 0;
+    margin-top: 5rem;
+}
+
+.gallery-section img{
+    width: 100%;
+}
+
+.gallery-section h2{
+    margin-top: 5rem;
+}

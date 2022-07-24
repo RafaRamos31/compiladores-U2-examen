@@ -1,0 +1,66 @@
+@import url(./global-style.css);
+
+/*Baner*/
+
+.baner {
+    background-image: url('../images/blog.png');
+    padding-top: 19rem;
+}
+
+.baner h2 {
+    text-align: center;
+    color: var(--font-panel-color);
+    font-size: 10rem;
+    margin: 0;
+}
+
+
+/*Contenido de la pagina*/
+
+.sub-title {
+    margin-top: 20rem;
+    padding-top: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-size: 4rem;
+    color: var(--panel-color);
+    text-align: center;
+}
+
+.blog-section {
+    background-image: linear-gradient(to right, transparent 50%, var(--panel-color) 50%, var(--panel-color) 100%), url(../images/mueble12.jpg);
+    padding: 10rem 0;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 100%, 70rem;
+}
+
+.blog-section-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15rem;
+}
+
+.blog-text {
+    grid-column: 2 / 3;
+    color: var(--font-panel-color);
+}
+
+.blog-section2 {
+    background-image: linear-gradient(to left, transparent 50%, var(--panel-color) 50%, var(--panel-color) 100%), url(../images/cama1.jpg);
+    padding: 10rem 0;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 100%, 70rem;
+    margin-bottom: 5rem;
+}
+
+.blog-section-grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15rem;
+}
+
+.blog-text2 {
+    grid-column: 1 / 2;
+    color: var(--font-panel-color);
+}
