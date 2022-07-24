@@ -73,6 +73,11 @@ img{
     transition: background-color .3s ease-out;
 }
 
+.texto-panel{
+    padding: 2rem;
+    color: var(--font-panel-color);
+}
+
 .btn:hover {
     background-color: var(--button-hover-color);
 }
