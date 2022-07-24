@@ -1,17 +1,117 @@
 @import url(./global-style.css);
 
 /*Baner*/
-.baner{
-    background-image: url('../images/tienda.png');
+
+.baner {
+    background-image: url('../images/tienda.jpg');
     padding-top: 19rem;
 }
 
-.baner h2{
+.baner h2 {
     text-align: center;
     color: var(--font-panel-color);
     font-size: 10rem;
     margin: 0;
 }
 
+
 /*Contenido de la pagina*/
 
+
+/*.contenido-principal {
+    margin-top: 12rem;
+    padding-top: 3rem;
+}*/
+
+.sub-title {
+    margin-left: 8rem;
+    margin-top: 12rem;
+    padding-top: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-size: 4rem;
+    color: var(--panel-color);
+}
+
+.listado-productos {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 2rem;
+}
+
+.producto {
+    background-color: var(--panel-color);
+}
+
+.producto:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.producto:nth-child(1) img {
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.producto:nth-child(2) {
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+.producto:nth-child(2) img,
+.producto:nth-child(3) img {
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.producto:nth-child(3) {
+    grid-column-start: 7;
+    grid-column-end: 10;
+}
+
+.texto-producto {
+    color: var(--font-panel-color);
+    text-align: center;
+    padding: 2rem;
+}
+
+.texto-producto h3 {
+    margin: 0;
+}
+
+.texto-producto p {
+    margin: 0 0 .5rem 0;
+}
+
+.texto-producto .precio {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.precio {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.sobre-nosotros {
+    margin-top: 12rem;
+    text-align: center;
+    background-image: linear-gradient(to right, transparent 50%, var(--panel-color) 50%, var(--panel-color) 100%), url(../images/mueble11.jpg);
+    padding: 10rem 0;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 100%, 90rem;
+    margin-bottom: 5rem;
+}
+
+.sobre-nosotros-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15rem;
+}
+
+.texto-nosotros {
+    grid-column: 2 / 3;
+    color: var(--font-panel-color);
+}
